@@ -1,0 +1,13 @@
+linters:
+  enable:
+    - megacheck
+    - govet
+    - golint
+  disable:
+    - maligned
+    - errcheck
+  presets:
+    - bugs
+    - complexity
+    - format
+    - performance
